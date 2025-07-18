@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+      box-sizing: border-box;
+ font-family: "Michroma", sans-serif;
+ font-weight: 300;
+
+}
+
+:root{
+
+    --color-background: #030207;
+
+
+}
+
+
+body{
+    background-color: black;
+    color: white
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.Video_1{
+    position:absolute;
+    object-fit: cover;
+    height: 100vh;
+    width: 100%;
+    z-index: -10;
+    filter: brightness(10%);
+   background: linear-gradient( rgba(0,0,0,0.2) , var(--color-background) ) ;
+    
+}
+
+
+
+
+.Home{
+    height: 100vh;
+    width: 100%;
+    color: white;
+     font-family: 'Bitcount Grid Double', sans-serif; 
+    
+     
+}
+
+
+.Olá{
+  font-size: 2rem;
+  text-align: left;
+  padding-top: 80px;
+  padding-left: 90px;
+
+
+}
+
+.Nome{
+
+    text-align: center;
+    font-size: 4rem;
+   padding-top: 150px ;
+    font-family: 'Bitcount Grid Double', sans-serif; 
+}
+
+.Futuro{
+    text-align: center;
+    margin-top: -04rem;
+    padding-left: 19rem;
+    font-size: 1rem;
+}
+
+#icones {
+  position: fixed;
+  top: 75px;
+  right: 10px;
+  display: flex;               
+  gap: 10px;                   
+  z-index: 1000;
+}
+
+#icones a {
+  text-decoration: none;
+
+}
+
+#icones button {
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #d0e3f0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#icones button:hover {
+  background-color: #a9cbe0;
+}
+
+
+
+.Apresentação {
+
+}
+
+.Text_apresentacao {
+  font-size: 33px;
+  text-align: center;
+  padding-right: 19rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  
+}
+
+.Topo_exp{
+   font-size: 33px;
+  text-align: center;
+  padding-right: 19rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+}
+
+.Text_Projetos{
+
+    font-size: 33px;
+  text-align: center;
+  padding-right: 19rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+}
+
+
+
+.Text_lateral{
+  
+  width: 800px;
+  height: 400px;
+  line-height: 32px;
+ 
+
+
+}
+
+
+.Apresentação{
+
+     height: 100vh;
+    width: 100%;
+    
+}
+
+
+
+
+
+.Experiencias{
+
+     height: 100vh;
+    width: 100%;
+
+    
+
+}
+
+.Text_exp{
+
+  text-align: center;
+  
+
+  
+
+}
+
+#Imagens_sistemas{
+   display: flex;
+  gap: 50px; 
+  justify-content: center; 
+  align-items: center; 
+  margin-top: 20px;
+  filter: brightness(115%);
+padding-top: 7rem;
+}
+
+.Winthor_img{
+border-radius: 5rem;
+  height: 18rem;
+  width: 18rem;
+}
+
+.Protheus_img{
+ border-radius: 5rem;
+  height: 18rem;
+  width: 18rem;
+}
+
+.Citel_img{
+border-radius: 5rem;
+  height: 18rem;
+  width: 18rem;
+}
+
+
+.Transis_img{
+border-radius: 5rem;
+  height: 18rem;
+  width: 18rem;
+}
+
+
+.Linguagens{
+
+     height: 100vh;
+    width: 100%;
+    
+}
+
+.Tecnologias{
+
+     height: 100vh;
+    width: 100%;
+   
+}
+
+.Sistemas{
+
+     height: 100vh;
+    width: 100%;
+   
+}
+
+#Projetos{
+
+     height: 150vh;
+    width: 100%;
+   
+}
+
+
+
+
+
+
+
+
+
+.Contatos{
+
+     height: 100vh;
+    width: 100%;
+    
+}
